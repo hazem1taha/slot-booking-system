@@ -9,7 +9,7 @@ Late deliveries are bad. Every decision in this service defaults toward protecti
 ## Project structure
 
 ```
-twinkle-booking-task/
+slot-booking-system/
 ├── packages/
 │   ├── shared/     # Shared domain types (Config, Order, Decision, etc.)
 │   ├── backend/    # Fastify API — slot availability + booking engine
