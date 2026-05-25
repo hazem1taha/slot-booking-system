@@ -1,0 +1,14 @@
+{
+  "name": "slot-booking-service-slots",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:shared": "npm run build --workspace=@slot-booking-service/shared",
+    "build:backend": "npm run build --workspace=@slot-booking-service/backend",
+    "build:frontend": "npm run build --workspace=@slot-booking-service/frontend",
+    "dev:backend": "npm run dev --workspace=@slot-booking-service/backend",
+    "dev:frontend": "npm run dev --workspace=@slot-booking-service/frontend"
+  }
+}

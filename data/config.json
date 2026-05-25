@@ -1,0 +1,47 @@
+{
+  "timezone": "Asia/Riyadh",
+  "fulfillment_center": {
+    "name": "Warehouse",
+    "lat": 24.7136,
+    "lng": 46.6753
+  },
+  "slots": [
+    {
+      "id": "afternoon",
+      "label": "Afternoon",
+      "window_start": "12:00",
+      "window_end": "16:00",
+      "must_finish_by": "15:30"
+    },
+    {
+      "id": "evening",
+      "label": "Evening",
+      "window_start": "16:00",
+      "window_end": "20:00",
+      "must_finish_by": "19:30"
+    }
+  ],
+  "capacity": {
+    "weekday_per_slot": 3,
+    "weekend_per_slot": 10
+  },
+  "weekend_days": ["Friday", "Saturday"],
+  "routing": {
+    "avg_speed_kmh": 22,
+    "setup_minutes_per_stop": 15,
+    "route_finish_mode": "return_to_fc"
+  },
+  "event_types": [
+    {"id": "balloon_arch", "label": "Balloon Arch", "setup_minutes": 10},
+    {"id": "backdrop", "label": "Themed Backdrop", "setup_minutes": 25},
+    {"id": "full_setup", "label": "Full Themed Setup", "setup_minutes": 45},
+    {"id": "baby_shower", "label": "Baby Shower Package", "setup_minutes": 30},
+    {"id": "default", "label": "Standard", "setup_minutes": 15}
+  ],
+  "bounds": {
+    "north": 24.85,
+    "south": 24.55,
+    "east": 46.90,
+    "west": 46.45
+  }
+}

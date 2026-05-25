@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+packages/*/node_modules/
+
+# Build outputs
+dist/
+build/
+packages/*/dist/
+packages/*/tsconfig.tsbuildinfo
+packages/backend/coverage/
+packages/frontend/.vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Temp data
+!data/*.sample.json
+
+# Misc
+*.tgz
+.turbo/
