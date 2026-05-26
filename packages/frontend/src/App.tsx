@@ -194,8 +194,6 @@ function App() {
     .filter(o => o.date === selectedDate && o.slot === selectedSlot && o.sub_slot_time)
     .sort((a: any, b: any) => a.sub_slot_time.localeCompare(b.sub_slot_time));
 
-  const windowStart = selectedSlot === 'afternoon' ? '12:00' : '16:00';
-
   function subSlotDiagnostics(ssTime: string): {prevLabel: string; travelNeeded: number; gapAvailable: number | null} {
     const prevOrder = slotOrders.filter((o: any) => o.sub_slot_time < ssTime).pop();
     const prevLoc: GeoPoint = prevOrder?.location ?? DEPOT;
