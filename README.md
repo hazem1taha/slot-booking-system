@@ -1,5 +1,7 @@
 # Delivery Slot & Capacity Service
 
+**Live demo:** https://slot-booking-system-frontend.vercel.app
+
 ## Core idea
 
 Late deliveries are bad. Every decision in this service defaults toward protecting on-time delivery. A clean "no" with a better alternative is a feature, not a failure.
